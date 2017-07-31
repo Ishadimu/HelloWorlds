@@ -103,7 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HelloWorlds\HelloWorlds.csproj">
-      <Project>{E7C7343A-7BF7-4BE7-8B22-0837A8913A95}</Project>
+      <Project>{e7c7343a-7bf7-4be7-8b22-0837a8913a95}</Project>
       <Name>HelloWorlds</Name>
     </ProjectReference>
   </ItemGroup>
