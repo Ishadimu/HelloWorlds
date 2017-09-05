@@ -13,7 +13,7 @@ namespace HelloWorlds.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201709052030083_AddBaseModels"; }
+            get { return "201709052210232_AddBaseModels"; }
         }
         
         string IMigrationMetadata.Source

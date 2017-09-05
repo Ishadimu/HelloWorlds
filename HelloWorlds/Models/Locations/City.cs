@@ -1,6 +1,6 @@
 ﻿using HelloWorlds.Models.Enums;
 
-namespace HelloWorlds.Models
+namespace HelloWorlds.Models.Locations
 {
     public class City : BaseDbModel
     {

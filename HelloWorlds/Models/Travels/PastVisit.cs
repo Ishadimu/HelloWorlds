@@ -1,4 +1,5 @@
 ﻿using System;
+using HelloWorlds.Models.Locations;
 
 namespace HelloWorlds.Models.Travels
 {

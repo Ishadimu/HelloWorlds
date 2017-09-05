@@ -9,11 +9,11 @@ namespace HelloWorlds.Models
         [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
 
-        public DateTime? InsertedOn { get; set; }
-        public DateTime? InsertedBy { get; set; }
-        public DateTime? UpdatedOn { get; set; }
-        public DateTime? UpdatedBy { get; set; }
-
+        public DateTime InsertedOn { get; set; } = DateTime.UtcNow;
+        public DateTime UpdatedOn { get; set; } = DateTime.UtcNow;
         public DateTime? VoidTime { get; set; }
+
+        public virtual ApplicationUser InsertedBy { get; set; }
+        public virtual ApplicationUser UpdatedBy { get; set; }
     }
 }
