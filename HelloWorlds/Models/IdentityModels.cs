@@ -1,8 +1,11 @@
-﻿using System.Security.Claims;
+﻿using System.Data.Entity;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using HelloWorlds.Models.Enums;
+using HelloWorlds.Models.Locations;
+using HelloWorlds.Models.Travels;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity.Owin;
 
 namespace HelloWorlds.Models
 {
@@ -29,5 +32,21 @@ namespace HelloWorlds.Models
         {
             return new ApplicationDbContext();
         }
+
+        // base models
+        public DbSet<City> Cities { get; set; }
+        public DbSet<State> States { get; set; }
+        public DbSet<Country> Countries { get; set; }
+        public DbSet<World> Worlds { get; set; }
+
+        // relations
+        public DbSet<FutureVisit> FutureVisits { get; set; }
+        public DbSet<PastVisit> PastVisits { get; set; }
+
+        // enums
+        public DbSet<CityType> CityTypes { get; set; }
+        public DbSet<CountryType> CountryTypes { get; set; }
+        public DbSet<StateType> StateTypes { get; set; }
+        public DbSet<WorldType> WorldTypes { get; set; }
     }
 }

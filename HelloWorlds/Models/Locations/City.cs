@@ -1,8 +1,11 @@
-﻿namespace HelloWorlds.Models
+﻿using HelloWorlds.Models.Enums;
+
+namespace HelloWorlds.Models
 {
-    public class City
+    public class City : BaseDbModel
     {
-        public int Id { get; set; }
         public string Name { get; set; }
+
+        public virtual CityType Type { get; set; }
     }
 }

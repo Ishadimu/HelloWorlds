@@ -3,13 +3,11 @@ using HelloWorlds.Models.Enums;
 
 namespace HelloWorlds.Models.Locations
 {
-    public class Country
+    public class Country : BaseDbModel
     {
-        public int Id { get; set; }
         public string Name { get; set; }
 
-        public CountryType Type { get; set; }
-
+        public virtual CountryType Type { get; set; }
         public virtual ICollection<State> States { get; set; }
     }
 }

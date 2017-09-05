@@ -75,3 +75,5 @@ C:\Code\HelloWorlds\HelloWorlds\bin\System.Web.Http.Owin.xml
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.csprojResolveAssemblyReference.cache
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.dll
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.pdb
+C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.InitialAppCreate.resources
+C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.csproj.GenerateResource.Cache
