@@ -10,9 +10,9 @@ using HelloWorlds.Models.Locations;
 
 namespace HelloWorlds.API
 {
-    [Authorize]
+    [AllowAnonymous]
     [RoutePrefix("api/city")]
-    public class CityApi : ApiController
+    public class CityController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
@@ -72,13 +72,14 @@ namespace HelloWorlds.API
 
         [HttpPost]
         [ResponseType(typeof(City))]
-        public async Task<IHttpActionResult> PostCity(City city)
+        public async Task<IHttpActionResult> PostCity(string cityName)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
+            var city = new City() { Name = cityName };
             db.Cities.Add(city);
 
             try
