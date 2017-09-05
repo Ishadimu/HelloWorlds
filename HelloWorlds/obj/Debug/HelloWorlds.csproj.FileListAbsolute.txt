@@ -77,3 +77,4 @@ C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.dll
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.pdb
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.InitialAppCreate.resources
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.csproj.GenerateResource.Cache
+C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.AddBaseModels.resources

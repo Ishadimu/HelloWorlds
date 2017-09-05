@@ -216,6 +216,10 @@
     <Compile Include="Migrations\201709051851388_InitialAppCreate.Designer.cs">
       <DependentUpon>201709051851388_InitialAppCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709052030083_AddBaseModels.cs" />
+    <Compile Include="Migrations\201709052030083_AddBaseModels.Designer.cs">
+      <DependentUpon>201709052030083_AddBaseModels.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -8255,6 +8259,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201709051851388_InitialAppCreate.resx">
       <DependentUpon>201709051851388_InitialAppCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709052030083_AddBaseModels.resx">
+      <DependentUpon>201709052030083_AddBaseModels.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
