@@ -10,19 +10,6 @@ namespace HelloWorlds.Models.Enums
 
     public class CityType : BaseType
     {
-        public static implicit operator CityType(CityEnum @enum) => new CityType(@enum);
 
-        public static implicit operator CityEnum(CityType type) => (CityEnum)type.Id;
-
-        private CityType(CityEnum @enum)
-        {
-            Id = (int) @enum;
-            Name = @enum.ToString();
-            Description = @enum.GetEnumDescription();
-        }
-
-        protected CityType()
-        {
-        }
     }
 }

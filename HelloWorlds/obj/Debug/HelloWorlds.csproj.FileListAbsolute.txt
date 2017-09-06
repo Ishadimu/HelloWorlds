@@ -78,3 +78,7 @@ C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.pdb
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.InitialAppCreate.resources
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.csproj.GenerateResource.Cache
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.AddBaseModels.resources
+C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.RemoveInsertedUpdatedBy.resources
+C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.ImproveModels.resources
+C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.EnumModification.resources
+C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.ImproveRelations.resources

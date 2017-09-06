@@ -10,19 +10,6 @@ namespace HelloWorlds.Models.Enums
 
     public class WorldType : BaseType
     {
-        public static implicit operator WorldType(WorldEnum @enum) => new WorldType(@enum);
 
-        public static implicit operator WorldEnum(WorldType type) => (WorldEnum)type.Id;
-
-        private WorldType(WorldEnum @enum)
-        {
-            Id = (int)@enum;
-            Name = @enum.ToString();
-            Description = @enum.GetEnumDescription();
-        }
-
-        protected WorldType()
-        {
-        }
     }
 }

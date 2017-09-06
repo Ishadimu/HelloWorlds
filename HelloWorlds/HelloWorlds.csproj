@@ -17,11 +17,11 @@
     <AssemblyName>HelloWorlds</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <IISExpressUseClassicPipelineMode>true</IISExpressUseClassicPipelineMode>
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -171,7 +171,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\WorldController.cs" />
+    <Compile Include="Api\WorldController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -208,7 +208,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="API\CityController.cs" />
+    <Compile Include="Api\CityController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Extensions\EnumExtensions.cs" />
     <Compile Include="Global.asax.cs">
@@ -221,6 +221,22 @@
     <Compile Include="Migrations\201709052210232_AddBaseModels.cs" />
     <Compile Include="Migrations\201709052210232_AddBaseModels.Designer.cs">
       <DependentUpon>201709052210232_AddBaseModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709062144549_RemoveInsertedUpdatedBy.cs" />
+    <Compile Include="Migrations\201709062144549_RemoveInsertedUpdatedBy.Designer.cs">
+      <DependentUpon>201709062144549_RemoveInsertedUpdatedBy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709062214477_ImproveModels.cs" />
+    <Compile Include="Migrations\201709062214477_ImproveModels.Designer.cs">
+      <DependentUpon>201709062214477_ImproveModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709062231557_EnumModification.cs" />
+    <Compile Include="Migrations\201709062231557_EnumModification.Designer.cs">
+      <DependentUpon>201709062231557_EnumModification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709062316162_ImproveRelations.cs" />
+    <Compile Include="Migrations\201709062316162_ImproveRelations.Designer.cs">
+      <DependentUpon>201709062316162_ImproveRelations.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -8265,6 +8281,18 @@
     <EmbeddedResource Include="Migrations\201709052210232_AddBaseModels.resx">
       <DependentUpon>201709052210232_AddBaseModels.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709062144549_RemoveInsertedUpdatedBy.resx">
+      <DependentUpon>201709062144549_RemoveInsertedUpdatedBy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709062214477_ImproveModels.resx">
+      <DependentUpon>201709062214477_ImproveModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709062231557_EnumModification.resx">
+      <DependentUpon>201709062231557_EnumModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709062316162_ImproveRelations.resx">
+      <DependentUpon>201709062316162_ImproveRelations.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -8284,7 +8312,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>5791</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/HelloWorlds</IISUrl>
+          <IISUrl>http://localhost:5791/HelloWorlds</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

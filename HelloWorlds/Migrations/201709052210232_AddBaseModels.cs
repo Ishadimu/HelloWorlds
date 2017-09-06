@@ -11,7 +11,7 @@ namespace HelloWorlds.Migrations
                 "dbo.Cities",
                 c => new
                     {
-                        Id = c.Int(nullable: false),
+                        Id = c.Int(nullable: false, identity: true),
                         Name = c.String(),
                         InsertedOn = c.DateTime(nullable: false),
                         UpdatedOn = c.DateTime(nullable: false),
@@ -54,7 +54,7 @@ namespace HelloWorlds.Migrations
                 "dbo.Countries",
                 c => new
                     {
-                        Id = c.Int(nullable: false),
+                        Id = c.Int(nullable: false, identity: true),
                         Name = c.String(),
                         InsertedOn = c.DateTime(nullable: false),
                         UpdatedOn = c.DateTime(nullable: false),
@@ -78,7 +78,7 @@ namespace HelloWorlds.Migrations
                 "dbo.States",
                 c => new
                     {
-                        Id = c.Int(nullable: false),
+                        Id = c.Int(nullable: false, identity: true),
                         Name = c.String(),
                         InsertedOn = c.DateTime(nullable: false),
                         UpdatedOn = c.DateTime(nullable: false),
@@ -140,7 +140,7 @@ namespace HelloWorlds.Migrations
                 "dbo.FutureVisits",
                 c => new
                     {
-                        Id = c.Int(nullable: false),
+                        Id = c.Int(nullable: false, identity: true),
                         VisitTime = c.DateTime(nullable: false),
                         InsertedOn = c.DateTime(nullable: false),
                         UpdatedOn = c.DateTime(nullable: false),
@@ -164,7 +164,7 @@ namespace HelloWorlds.Migrations
                 "dbo.PastVisits",
                 c => new
                     {
-                        Id = c.Int(nullable: false),
+                        Id = c.Int(nullable: false, identity: true),
                         VisitTime = c.DateTime(nullable: false),
                         InsertedOn = c.DateTime(nullable: false),
                         UpdatedOn = c.DateTime(nullable: false),
@@ -188,7 +188,7 @@ namespace HelloWorlds.Migrations
                 "dbo.Worlds",
                 c => new
                     {
-                        Id = c.Int(nullable: false),
+                        Id = c.Int(nullable: false, identity: true),
                         Name = c.String(),
                         InsertedOn = c.DateTime(nullable: false),
                         UpdatedOn = c.DateTime(nullable: false),

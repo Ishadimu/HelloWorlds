@@ -70,14 +70,17 @@ namespace HelloWorlds.API
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/World
+        [HttpPost]
+        [Route("add")]
         [ResponseType(typeof(World))]
-        public async Task<IHttpActionResult> PostWorld(World world)
+        public async Task<IHttpActionResult> PostWorld(string name)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
+
+            var world = new World(name);
 
             db.Worlds.Add(world);
 
