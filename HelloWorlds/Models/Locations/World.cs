@@ -6,8 +6,10 @@ namespace HelloWorlds.Models.Locations
     public class World : BaseDbModel
     {
         public string Name { get; set; }
-        public virtual WorldEnum WorldType { get; set; } = WorldEnum.Planet;
-        public virtual ICollection<Country> Countries { get; set; }
+        public WorldEnum WorldType { get; set; } = WorldEnum.Planet;
+
+        // nav
+        public ICollection<Country> Countries { get; set; }
 
         public World() { }
 

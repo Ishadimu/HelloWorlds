@@ -86,7 +86,8 @@ namespace HelloWorlds.Migrations
                     UserName = "george.ishadimu@gmail.com",
                     Email = "george.ishadimu@gmail.com",
                     PasswordHash = password,
-                    EmailConfirmed = true
+                    EmailConfirmed = true,
+                    SecurityStamp = Guid.NewGuid().ToString()
                 });
         }
     }

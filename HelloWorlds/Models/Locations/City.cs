@@ -8,7 +8,8 @@ namespace HelloWorlds.Models.Locations
         public CityEnum CityType { get; set; } = CityEnum.City;
         public int StateId { get; set; }
 
-        public virtual State State { get; set; }
+        // nav
+        public State State { get; set; }
 
         public City () { }
 

@@ -22,11 +22,12 @@ namespace HelloWorlds.API
             return db.Worlds;
         }
 
-        // GET: api/World/5
-        [ResponseType(typeof(World))]
+        [HttpGet]
+        [Route("{id:int}")]
         public async Task<IHttpActionResult> GetWorld(int id)
         {
             World world = await db.Worlds.FindAsync(id);
+
             if (world == null)
             {
                 return NotFound();
@@ -61,10 +62,7 @@ namespace HelloWorlds.API
                 {
                     return NotFound();
                 }
-                else
-                {
-                    throw;
-                }
+                throw;
             }
 
             return StatusCode(HttpStatusCode.NoContent);
@@ -94,10 +92,7 @@ namespace HelloWorlds.API
                 {
                     return Conflict();
                 }
-                else
-                {
-                    throw;
-                }
+                throw;
             }
 
             return CreatedAtRoute("DefaultApi", new { id = world.Id }, world);

@@ -9,8 +9,9 @@ namespace HelloWorlds.Models.Locations
         public StateEnum StateType { get; set; } = StateEnum.State;
         public int CountryId { get; set; }
 
-        public virtual Country Country { get; set; }
-        public virtual ICollection<City> Cities { get; set; }
+        // nav
+        public Country Country { get; set; }
+        public ICollection<City> Cities { get; set; }
 
         public State() { }
 

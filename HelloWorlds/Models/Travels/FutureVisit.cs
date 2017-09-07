@@ -7,7 +7,8 @@ namespace HelloWorlds.Models.Travels
     {
         public DateTime VisitTime { get; set; }
 
-        public virtual City City { get; set; }
-        public virtual ApplicationUser User { get; set; }
+        // nav
+        public City City { get; set; }
+        public ApplicationUser User { get; set; }
     }
 }
