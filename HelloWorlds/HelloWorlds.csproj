@@ -247,6 +247,7 @@
     <Compile Include="Models\Enums\CountryType.cs" />
     <Compile Include="Models\Enums\StateType.cs" />
     <Compile Include="Models\Enums\WorldType.cs" />
+    <Compile Include="Models\Utility.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Locations\City.cs" />
     <Compile Include="Models\Locations\Country.cs" />

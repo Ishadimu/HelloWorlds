@@ -24,7 +24,7 @@ namespace HelloWorlds.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     { 
         public ApplicationDbContext()
-            : base("HelloWorldsConnection", throwIfV1Schema: false)
+            : base(Utility.GetConnectionString(), throwIfV1Schema: false)
         {
         }
         
