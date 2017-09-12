@@ -285,7 +285,10 @@
     <Content Include="ExtJS\.sencha\workspace\plugin.xml" />
     <Content Include="ExtJS\app.js" />
     <Content Include="ExtJS\app\Application.js" />
+    <Content Include="ExtJS\app\store\World.js" />
     <Content Include="ExtJS\app\store\Personnel.js" />
+    <Content Include="ExtJS\app\view\main\List.js" />
+    <Content Include="ExtJS\app\view\main\Main.js" />
     <Content Include="ExtJS\app\view\main\MainController.js" />
     <Content Include="ExtJS\app\view\main\MainModel.js" />
     <Content Include="ExtJS\bootstrap.css" />
@@ -891,8 +894,6 @@
     <Content Include="ExtJS\build\development\HelloWorlds\resources\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="ExtJS\build\temp\development\HelloWorlds\sencha-compiler\app\full-page-master-bundle.js" />
     <Content Include="ExtJS\build\temp\development\HelloWorlds\slicer-temp\bootstrap.js" />
-    <Content Include="ExtJS\classic\src\view\main\List.js" />
-    <Content Include="ExtJS\classic\src\view\main\Main.js" />
     <Content Include="ExtJS\ext\.sencha\package\Boot.js" />
     <Content Include="ExtJS\ext\.sencha\package\bootstrap-impl.xml" />
     <Content Include="ExtJS\ext\.sencha\package\build-impl.xml" />
@@ -8263,6 +8264,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ExtJS\classic\src\view\main\" />
     <Folder Include="ExtJS\overrides\" />
     <Folder Include="ExtJS\packages\" />
     <Folder Include="ExtJS\sass\src\" />

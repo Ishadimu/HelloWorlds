@@ -17,5 +17,18 @@ Ext.define('HelloWorlds.view.main.MainController', {
         if (choice === 'yes') {
             //
         }
+    },
+
+    onClickButton: function () {
+        // Remove the localStorage key/value
+        localStorage.removeItem('LoggedIn');
+
+        // Remove Main View
+        this.getView().destroy();
+
+        // Add the Login Window
+        Ext.create({
+            xtype: 'login'
+        });
     }
 });
