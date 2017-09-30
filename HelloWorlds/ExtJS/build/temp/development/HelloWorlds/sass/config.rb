@@ -1,1 +1,1 @@
-cache_path = 'C:\Code\HelloWorlds\HelloWorlds\ExtJs/build/.sass-cache'
+cache_path = 'C:\Code\HelloWorlds\HelloWorlds\ExtJS/build/.sass-cache'

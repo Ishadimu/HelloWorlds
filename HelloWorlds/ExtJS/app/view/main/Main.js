@@ -6,106 +6,52 @@
  * TODO - Replace this content of this view to suite the needs of your application.
  */
 Ext.define('HelloWorlds.view.main.Main', {
-    extend: 'Ext.tab.Panel',
+    extend: 'Ext.container.Container',
     xtype: 'app-main',
 
     requires: [
-        'Ext.plugin.Viewport',
-        'Ext.window.MessageBox',
-
         'HelloWorlds.view.main.MainController',
         'HelloWorlds.view.main.MainModel',
-        'HelloWorlds.view.main.List'
+        'HelloWorlds.view.nav.SubNav',
+        'HelloWorlds.view.nav.SubNavController',
+        'HelloWorlds.view.nav.MainNav',
+        'HelloWorlds.view.nav.MainNavController'
     ],
 
     controller: 'main',
     viewModel: 'main',
-    plugins: 'viewport',
 
-    ui: 'navigation',
+    width: 1200,
 
-    tabBarHeaderPosition: 1,
-    titleRotation: 0,
-    tabRotation: 0,
+    style: {
+        margin: 'auto',
+        backgroundColor: 'white'
+    },
 
-    header: {
-        layout: {
-            align: 'stretchmax'
+    items: [
+        {
+            xtype: 'subNav'            
         },
-        title: {
-            bind: {
-                text: '{name}'
-            },
-            flex: 0
+        {
+            xtype: 'mainNav'
         },
-        iconCls: 'fa-th-list',
-        items: [{
-            xtype: 'button',
-            text: 'Logout',
-            margin: '10 0',
-            handler: 'onClickButton'
-        }]
-    },
-
-    tabBar: {
-        flex: 1,
-        layout: {
-            align: 'stretch',
-            overflowHandler: 'none'
+        {
+            xtype: 'textfield',
+            title: 'Home',
+            iconCls: 'fa-home'
+            // The following grid shares a store with the classic version's grid as well!
+        }, {
+            xtype: 'textfield',
+            title: 'Users',
+            iconCls: 'fa-user'
+        }, {
+            xtype: 'textfield',
+            title: 'Groups',
+            iconCls: 'fa-users'
+        }, {
+            xtype: 'textfield',
+            title: 'Settings',
+            iconCls: 'fa-cog'
         }
-    },
-
-    responsiveConfig: {
-        tall: {
-            headerPosition: 'top'
-        },
-        wide: {
-            headerPosition: 'left'
-        }
-    },
-
-    defaults: {
-        bodyPadding: 20,
-        tabConfig: {
-            plugins: 'responsive',
-            responsiveConfig: {
-                wide: {
-                    iconAlign: 'left',
-                    textAlign: 'left'
-                },
-                tall: {
-                    iconAlign: 'top',
-                    textAlign: 'center',
-                    width: 120
-                }
-            }
-        }
-    },
-
-    items: [{
-        title: 'Home',
-        iconCls: 'fa-home',
-        // The following grid shares a store with the classic version's grid as well!
-        items: [{
-            xtype: 'mainlist'
-        }]
-    }, {
-        title: 'Users',
-        iconCls: 'fa-user',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }, {
-        title: 'Groups',
-        iconCls: 'fa-users',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }, {
-        title: 'Settings',
-        iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }]
+    ]
 });

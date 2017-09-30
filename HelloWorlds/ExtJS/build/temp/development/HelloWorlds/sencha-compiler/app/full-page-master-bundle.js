@@ -1,2 +1,2 @@
 // @tag full-page
-// @require C:\Code\HelloWorlds\HelloWorlds\ExtJs\app.js
+// @require C:\Code\HelloWorlds\HelloWorlds\ExtJS\app.js

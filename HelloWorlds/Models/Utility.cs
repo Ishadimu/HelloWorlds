@@ -33,7 +33,7 @@ namespace HelloWorlds.Models
 
         private static string GetLocalConnectionString()
         {
-            return "Server =.\\SQLEXPRESS; Database = HelloWorldsDb; User Id = hellotest; password = pw123;";
+            return "Server=.\\SQLEXPRESS;Database=HelloWorldsDb;Integrated Security=true;User Id=hellotest;password=pw123;";
         }
     }
 }

@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'HelloWorlds' );
-$image-search-path: 'C:/Code/HelloWorlds/HelloWorlds/ExtJs/build/development/HelloWorlds/classic/resources';
+$image-search-path: 'C:/Code/HelloWorlds/HelloWorlds/ExtJS/build/development/HelloWorlds/classic/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
@@ -915,6 +915,10 @@ $include-helloworlds-view-main-list: dynamic(true);;
 $include-helloworlds-view-main-main: dynamic(true);;
 $include-helloworlds-view-main-maincontroller: dynamic(true);;
 $include-helloworlds-view-main-mainmodel: dynamic(true);;
+$include-helloworlds-view-nav-mainnav: dynamic(true);;
+$include-helloworlds-view-nav-mainnavcontroller: dynamic(true);;
+$include-helloworlds-view-nav-subnav: dynamic(true);;
+$include-helloworlds-view-nav-subnavcontroller: dynamic(true);;
 $output-paths: ("path": "../../classic/resources", "shared": "../../resources");
 
 /* ======================== ETC ======================== */
@@ -1374,6 +1378,14 @@ $relative-image-path-for-uis: $theme-triton-resource-path;
 @import '../../../../../ext/classic/theme-triton/sass/src/menu/Menu';
 @import '../../../../../ext/classic/theme-triton/sass/src/tab/Tab';
 @import '../../../../../ext/classic/theme-triton/sass/src/window/Toast';
+
+/* including scss file adjacent to ..\..\..\..\..\app\view\main\Main.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../app/view/main/Main';
 
 /* including package HelloWorlds */
 $HelloWorlds-resource-root: '' !default;
