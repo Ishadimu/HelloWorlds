@@ -15,7 +15,9 @@ Ext.define('HelloWorlds.view.main.Main', {
         'HelloWorlds.view.nav.SubNav',
         'HelloWorlds.view.nav.SubNavController',
         'HelloWorlds.view.nav.MainNav',
-        'HelloWorlds.view.nav.MainNavController'
+        'HelloWorlds.view.nav.MainNavController',
+        'HelloWorlds.view.nav.Footer',
+        'HelloWorlds.view.nav.FooterController'
     ],
 
     controller: 'main',
@@ -52,6 +54,9 @@ Ext.define('HelloWorlds.view.main.Main', {
             xtype: 'textfield',
             title: 'Settings',
             iconCls: 'fa-cog'
+        },
+        {
+            xtype: 'footer'
         }
     ]
 });

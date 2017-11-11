@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -72,15 +73,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="React.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
-      <HintPath>..\packages\React.Core.3.1.0\lib\net40\React.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="React.Web, Version=3.1.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
-      <HintPath>..\packages\React.Web.3.1.0\lib\net40\React.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="React.Web.Mvc4, Version=3.1.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
-      <HintPath>..\packages\React.Web.Mvc4.3.1.0\lib\net40\React.Web.Mvc4.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -245,7 +237,6 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Api\CityController.cs" />
-    <Compile Include="Controllers\ReactController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Extensions\EnumExtensions.cs" />
     <Compile Include="Global.asax.cs">
@@ -330,6 +321,8 @@
     <Content Include="ExtJS\app\view\main\Main.js" />
     <Content Include="ExtJS\app\view\main\MainController.js" />
     <Content Include="ExtJS\app\view\main\MainModel.js" />
+    <Content Include="ExtJS\app\view\nav\Footer.js" />
+    <Content Include="ExtJS\app\view\nav\FooterController.js" />
     <Content Include="ExtJS\app\view\nav\MainNav.js" />
     <Content Include="ExtJS\app\view\nav\MainNavController.js" />
     <Content Include="ExtJS\app\view\nav\SubNav.js" />
@@ -6461,6 +6454,12 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="React\favicon.ico" />
+    <Content Include="React\index.html" />
+    <Content Include="React\service-worker.js" />
+    <Content Include="React\static\css\main.c17080f1.css" />
+    <Content Include="React\static\js\main.7270d6ac.js" />
+    <Content Include="React\static\media\logo.5d5d9eef.svg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -8281,6 +8280,10 @@
     <Content Include="ExtJS\sass\var\all.scss" />
     <Content Include="ExtJS\workspace.json" />
     <Content Include="ExtJS\app\view\main\Main.scss" />
+    <Content Include="React\asset-manifest.json" />
+    <Content Include="React\manifest.json" />
+    <Content Include="React\static\css\main.c17080f1.css.map" />
+    <Content Include="React\static\js\main.7270d6ac.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -8307,11 +8310,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\React\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ExtJS\app\view\footer\" />
     <Folder Include="ExtJS\classic\src\view\main\" />
     <Folder Include="ExtJS\overrides\" />
     <Folder Include="ExtJS\packages\" />

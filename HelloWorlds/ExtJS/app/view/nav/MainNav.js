@@ -49,7 +49,7 @@ Ext.define('HelloWorlds.view.nav.MainNav', {
                 },
                 {
                     xtype: 'button',
-                    text: 'Discovered'
+                    text: 'Countries'
                 }
             ]
         }

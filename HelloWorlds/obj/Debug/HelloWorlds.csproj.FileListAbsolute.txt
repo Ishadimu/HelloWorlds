@@ -39,9 +39,6 @@ C:\Code\HelloWorlds\HelloWorlds\bin\Microsoft.Web.Infrastructure.dll
 C:\Code\HelloWorlds\HelloWorlds\bin\MsieJavaScriptEngine.dll
 C:\Code\HelloWorlds\HelloWorlds\bin\Newtonsoft.Json.dll
 C:\Code\HelloWorlds\HelloWorlds\bin\Owin.dll
-C:\Code\HelloWorlds\HelloWorlds\bin\React.Core.dll
-C:\Code\HelloWorlds\HelloWorlds\bin\React.Web.dll
-C:\Code\HelloWorlds\HelloWorlds\bin\React.Web.Mvc4.dll
 C:\Code\HelloWorlds\HelloWorlds\bin\System.Net.Http.Formatting.dll
 C:\Code\HelloWorlds\HelloWorlds\bin\System.Web.Helpers.dll
 C:\Code\HelloWorlds\HelloWorlds\bin\System.Web.Http.dll
@@ -64,9 +61,6 @@ C:\Code\HelloWorlds\HelloWorlds\bin\JSPool.xml
 C:\Code\HelloWorlds\HelloWorlds\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Code\HelloWorlds\HelloWorlds\bin\MsieJavaScriptEngine.xml
 C:\Code\HelloWorlds\HelloWorlds\bin\Newtonsoft.Json.xml
-C:\Code\HelloWorlds\HelloWorlds\bin\React.Core.xml
-C:\Code\HelloWorlds\HelloWorlds\bin\React.Web.xml
-C:\Code\HelloWorlds\HelloWorlds\bin\React.Web.Mvc4.xml
 C:\Code\HelloWorlds\HelloWorlds\bin\System.Net.Http.Formatting.xml
 C:\Code\HelloWorlds\HelloWorlds\bin\System.Web.Helpers.xml
 C:\Code\HelloWorlds\HelloWorlds\bin\System.Web.Http.xml
@@ -107,3 +101,5 @@ C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.Migrations.ImproveRelation
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.csproj.GenerateResource.Cache
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.dll
 C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.pdb
+C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.csprojResolveAssemblyReference.cache
+C:\Code\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.csproj.CoreCompileInputs.cache
