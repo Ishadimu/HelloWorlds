@@ -8,6 +8,20 @@ Ext.define('HelloWorlds.view.nav.MainNav', {
 
     controller: 'mainNav',
 
+    viewModel: {
+        formulas: {
+            getHelloWorldDisplayText: {
+                get: function () {
+                    var pathName = window.location.pathname;                    
+                    if (pathName.replace(/\//g, '') === 'extjs')
+                        return '';
+
+                    return '';
+                }
+            }
+        }
+    },
+
     layout: {
         type: 'hbox'
     },
@@ -21,22 +35,44 @@ Ext.define('HelloWorlds.view.nav.MainNav', {
     items: [
         {
             xtype: 'container',
-            flex: 0.5,
+            flex: 0.33,
             items: [
                 {
-                    html: 'Hello, Worlds!'
+                    bind: {
+                        html: '{getHelloWorldDisplayText}'
+                    }
                 }
             ]
         },
         {
             xtype: 'container',
-            flex: 0.5,
+            layout: {
+                type: 'hbox',
+                pack: 'center'
+            },
+            // flex: 0.33,
+            items: [
+                {
+                    xtype: 'button',
+                    tooltip: 'Project Home Page',
+                    tooltipType: 'title',
+                    glyph: 'xf015@FontAwesome',
+                    cls: ['btn', 'icon'],
+                    handler: function() {
+                        window.location = "http://helloworlds.ishadimu.com";
+                    }
+                }
+            ]
+        },
+        {
+            xtype: 'container',
+            flex: 0.33,
             layout: {
                 type: 'hbox',
                 pack: 'end'
             },
             defaults: {
-                cls: ''
+                cls: ['btn']
             },
             items: [
                 {

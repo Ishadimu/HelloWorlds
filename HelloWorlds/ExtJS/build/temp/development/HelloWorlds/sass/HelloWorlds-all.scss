@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'HelloWorlds' );
-$image-search-path: 'C:/Code/HelloWorlds/HelloWorlds/ExtJS/build/development/HelloWorlds/classic/resources';
+$image-search-path: 'C:/Code/HelloWorlds/HelloWorlds/ExtJs/build/development/HelloWorlds/classic/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
@@ -915,6 +915,8 @@ $include-helloworlds-view-main-list: dynamic(true);;
 $include-helloworlds-view-main-main: dynamic(true);;
 $include-helloworlds-view-main-maincontroller: dynamic(true);;
 $include-helloworlds-view-main-mainmodel: dynamic(true);;
+$include-helloworlds-view-nav-footer: dynamic(true);;
+$include-helloworlds-view-nav-footercontroller: dynamic(true);;
 $include-helloworlds-view-nav-mainnav: dynamic(true);;
 $include-helloworlds-view-nav-mainnavcontroller: dynamic(true);;
 $include-helloworlds-view-nav-subnav: dynamic(true);;

@@ -24,37 +24,32 @@ Ext.define('HelloWorlds.view.main.Main', {
     viewModel: 'main',
 
     width: 1200,
+    height: '100%',
+    scrollable: true,
 
     style: {
         margin: 'auto',
-        backgroundColor: 'white'
+        backgroundImage: 'url(resources/images/earth.jpg)',
+        backgroundSize: 'cover'
     },
 
     items: [
         {
-            xtype: 'subNav'            
+            xtype: 'subNav'
         },
         {
             xtype: 'mainNav'
         },
         {
-            xtype: 'textfield',
-            title: 'Home',
-            iconCls: 'fa-home'
-            // The following grid shares a store with the classic version's grid as well!
-        }, {
-            xtype: 'textfield',
-            title: 'Users',
-            iconCls: 'fa-user'
-        }, {
-            xtype: 'textfield',
-            title: 'Groups',
-            iconCls: 'fa-users'
-        }, {
-            xtype: 'textfield',
-            title: 'Settings',
-            iconCls: 'fa-cog'
-        },
+            id: 'front-content',
+            html: '<h1>Hello, Worlds!</h1>',
+            style: {
+                padding: '200px 0 200px 0'
+            }
+        }, 
+        {
+            xtype: 'container'
+        }, 
         {
             xtype: 'footer'
         }

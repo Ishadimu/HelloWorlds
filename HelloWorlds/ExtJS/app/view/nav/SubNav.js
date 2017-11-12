@@ -31,10 +31,13 @@ Ext.define('HelloWorlds.view.nav.SubNav', {
     tbar: [
         {
             xtype: 'container',
-            flex: 0.33,
             layout: {
                 type: 'hbox',
                 pack: 'start'
+            },
+            flex: 0.33,
+            defaults: {
+                cls: 'btn'
             },
             items: [
                 {
@@ -59,7 +62,10 @@ Ext.define('HelloWorlds.view.nav.SubNav', {
             items: [
                 {
                     xtype: 'button',
-                    text: 'Hub Site',
+                    tooltip: 'GitHub',
+                    tooltipType: 'title',
+                    glyph: 'xf09b@FontAwesome',
+                    cls: ['btn', 'icon'],
                     handler: function() {
                         window.location = "http://helloworlds.ishadimu.com";
                     }
@@ -73,6 +79,9 @@ Ext.define('HelloWorlds.view.nav.SubNav', {
                 pack: 'end'
             },
             flex: 0.33,
+            defaults: {
+                cls: 'btn'
+            },
             items: [
                 {
                     xtype: 'button',
