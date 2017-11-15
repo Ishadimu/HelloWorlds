@@ -3,7 +3,7 @@ using System.Configuration;
 
 namespace HelloWorlds.Models
 {
-    public class Utility
+    public static class Utility
     {
         public static string GetConnectionString()
         {
@@ -11,7 +11,7 @@ namespace HelloWorlds.Models
 
             switch (appConfig["environment"])
             {
-                case "environment":
+                case "prod":
                     return GetRdsConnectionString(appConfig);
                 default:
                     return GetLocalConnectionString();
