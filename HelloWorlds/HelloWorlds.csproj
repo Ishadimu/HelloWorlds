@@ -6445,7 +6445,8 @@
     <Content Include="ExtJS\ext\sass\etc\extensions.js" />
     <Content Include="ExtJS\ext\sass\example\fashion.html" />
     <Content Include="ExtJS\index.html" />
-    <Content Include="ExtJS\resources\images\earth.jpg" />
+    <Content Include="ExtJS\modern\src\view\main\List.js" />
+    <Content Include="ExtJS\modern\src\view\main\Main.js" />
     <Content Include="ExtJS\resources\images\world-at-night.jpeg" />
     <Content Include="ExtJS\sass\example\fashion.html" />
     <Content Include="ExtJS\sass\example\render.js" />
@@ -8313,7 +8314,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="ExtJS\classic\src\view\main\" />
-    <Folder Include="ExtJS\modern\src\view\main\" />
     <Folder Include="ExtJS\overrides\" />
     <Folder Include="ExtJS\packages\" />
     <Folder Include="ExtJS\sass\src\" />
