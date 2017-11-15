@@ -44,11 +44,14 @@ Ext.define('HelloWorlds.view.main.Main', {
             id: 'front-content',
             html: '<h1>Hello, Worlds!</h1>',
             style: {
-                padding: '200px 0 200px 0'
+                padding: '270px 0 270px 0'
             }
         }, 
         {
-            xtype: 'container'
+            xtype: 'container',
+            type: {
+                layout: ''
+            }
         }, 
         {
             xtype: 'footer'
