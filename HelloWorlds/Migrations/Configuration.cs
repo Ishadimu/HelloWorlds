@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using HelloWorlds.Extensions;
 using HelloWorlds.Models;
 using HelloWorlds.Models.Enums;
 using HelloWorlds.Models.Locations;

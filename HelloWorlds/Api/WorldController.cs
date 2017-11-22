@@ -16,10 +16,13 @@ namespace HelloWorlds.API
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: api/World
-        public IQueryable<World> GetWorlds()
+        [HttpGet]
+        [Route("")]
+        [ResponseType(typeof(World[]))]
+        public async Task<IHttpActionResult> GetWorlds()
         {
-            return db.Worlds;
+            var worlds = await db.Worlds.ToArrayAsync();
+            return Ok(worlds);
         }
 
         [HttpGet]

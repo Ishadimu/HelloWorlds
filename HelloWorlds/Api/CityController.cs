@@ -17,12 +17,16 @@ namespace HelloWorlds.API
         private ApplicationDbContext db = new ApplicationDbContext();
 
         [HttpGet]
-        public IQueryable<City> GetCities()
+        [Route("")]
+        [ResponseType(typeof(City[]))]
+        public async Task<IHttpActionResult>  GetCities()
         {
-            return db.Cities;
+            var cities = await db.Cities.ToArrayAsync();
+            return Ok(cities);
         }
 
         [HttpGet]
+        [Route("{id:int}")]
         [ResponseType(typeof(City))]
         public async Task<IHttpActionResult> GetCity(int id)
         {

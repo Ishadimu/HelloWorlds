@@ -6447,6 +6447,7 @@
     <Content Include="ExtJS\index.html" />
     <Content Include="ExtJS\modern\src\view\main\List.js" />
     <Content Include="ExtJS\modern\src\view\main\Main.js" />
+    <Content Include="ExtJS\resources\images\earth.jpg" />
     <Content Include="ExtJS\resources\images\world-at-night.jpeg" />
     <Content Include="ExtJS\sass\example\fashion.html" />
     <Content Include="ExtJS\sass\example\render.js" />
