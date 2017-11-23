@@ -13,6 +13,13 @@ Ext.define('HelloWorlds.Application', {
     ],
 
     launch: function () {
+        // set favicon
+        var link = document.createElement('link');
+        link.type = 'image/x-icon';
+        link.rel = 'shortcut icon';
+        link.href = '/favicon.ico';
+        document.getElementsByTagName('head')[0].appendChild(link);
+        
         // It's important to note that this type of application could use
         // any type of storage, i.e., Cookies, LocalStorage, etc.
         var loggedIn;
