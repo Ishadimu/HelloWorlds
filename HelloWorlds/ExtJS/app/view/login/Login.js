@@ -3,9 +3,6 @@ Ext.define('HelloWorlds.view.login.Login', {
     xtype: 'login',
 
     requires: [
-        'Ext.plugin.Viewport',
-        'Ext.window.MessageBox',
-
         'HelloWorlds.view.login.LoginController',
         'Ext.form.Panel'
     ],
