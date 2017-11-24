@@ -1,0 +1,475 @@
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-light-framed-collapsed-bottom-tc {
+    background-position: 0 0;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-light-framed-collapsed-bottom-bc {
+    background-position: 0 -2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-light-framed-collapsed-bottom-tr,
+.x-panel-header-light-framed-collapsed-bottom-br,
+.x-panel-header-light-framed-collapsed-bottom-mr {
+    padding-right: 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-light-framed-collapsed-bottom-tl,
+.x-panel-header-light-framed-collapsed-bottom-bl,
+.x-panel-header-light-framed-collapsed-bottom-ml {
+    padding-left: 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-light-framed-collapsed-bottom-tc {
+    height: 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-light-framed-collapsed-bottom-bc {
+    height: 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-light-framed-collapsed-bottom-tl,
+.x-panel-header-light-framed-collapsed-bottom-bl,
+.x-panel-header-light-framed-collapsed-bottom-tr,
+.x-panel-header-light-framed-collapsed-bottom-br,
+.x-panel-header-light-framed-collapsed-bottom-tc,
+.x-panel-header-light-framed-collapsed-bottom-bc,
+.x-panel-header-light-framed-collapsed-bottom-ml,
+.x-panel-header-light-framed-collapsed-bottom-mr {
+    background-image: url(images/panel-header/panel-header-light-framed-collapsed-bottom-corners.gif);
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-light-framed-collapsed-bottom-ml,
+.x-panel-header-light-framed-collapsed-bottom-mr {
+    background-image: url(images/panel-header/panel-header-light-framed-collapsed-bottom-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-light-framed-collapsed-bottom-mc {
+    padding: 10px 14px 10px 14px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-light-framed-collapsed-left {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 14px 10px 14px 10px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #fff;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-light-framed-collapsed-left-mc {
+    background-color: #fff;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-light-framed-collapsed-left {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-light-framed-collapsed-left-frameInfo {
+    font-family: dh-2-2-2-2-2-2-2-2-14-10-14-10;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-light-framed-collapsed-left-tl {
+    background-position: 0 -4px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-light-framed-collapsed-left-tr {
+    background-position: right -6px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-light-framed-collapsed-left-bl {
+    background-position: 0 -8px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-light-framed-collapsed-left-br {
+    background-position: right -10px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-light-framed-collapsed-left-ml {
+    background-position: left 0;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-light-framed-collapsed-left-mr {
+    background-position: left 0;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-light-framed-collapsed-left-tc {
+    background-position: 0 0;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-light-framed-collapsed-left-bc {
+    background-position: 0 -2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-light-framed-collapsed-left-tr,
+.x-panel-header-light-framed-collapsed-left-br,
+.x-panel-header-light-framed-collapsed-left-mr {
+    padding-right: 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-light-framed-collapsed-left-tl,
+.x-panel-header-light-framed-collapsed-left-bl,
+.x-panel-header-light-framed-collapsed-left-ml {
+    padding-left: 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-light-framed-collapsed-left-tc {
+    height: 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-light-framed-collapsed-left-bc {
+    height: 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-light-framed-collapsed-left-tl,
+.x-panel-header-light-framed-collapsed-left-bl,
+.x-panel-header-light-framed-collapsed-left-tr,
+.x-panel-header-light-framed-collapsed-left-br,
+.x-panel-header-light-framed-collapsed-left-tc,
+.x-panel-header-light-framed-collapsed-left-bc,
+.x-panel-header-light-framed-collapsed-left-ml,
+.x-panel-header-light-framed-collapsed-left-mr {
+    background-image: url(images/panel-header/panel-header-light-framed-collapsed-left-corners.gif);
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-light-framed-collapsed-left-ml,
+.x-panel-header-light-framed-collapsed-left-mr {
+    background-image: url(images/panel-header/panel-header-light-framed-collapsed-left-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-light-framed-collapsed-left-mc {
+    padding: 14px 10px 14px 10px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:633 */
+.x-panel .x-panel-header-light-framed-top {
+    border-bottom-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:637 */
+.x-panel .x-panel-header-light-framed-right {
+    border-left-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:641 */
+.x-panel .x-panel-header-light-framed-bottom {
+    border-top-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:645 */
+.x-panel .x-panel-header-light-framed-left {
+    border-right-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:651 */
+.x-nbr .x-panel-header-light-framed-collapsed-top {
+    border-bottom-width: 0 !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:655 */
+.x-nbr .x-panel-header-light-framed-collapsed-right {
+    border-left-width: 0 !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:659 */
+.x-nbr .x-panel-header-light-framed-collapsed-bottom {
+    border-top-width: 0 !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:663 */
+.x-nbr .x-panel-header-light-framed-collapsed-left {
+    border-right-width: 0 !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:781 */
+.x-panel-header-light-framed-horizontal .x-tool-after-title {
+    margin: 0 0 0 6px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:791 */
+.x-panel-header-light-framed-horizontal .x-tool-before-title {
+    margin: 0 6px 0 0;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:803 */
+.x-panel-header-light-framed-vertical .x-tool-after-title {
+    margin: 6px 0 0 0;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:813 */
+.x-panel-header-light-framed-vertical .x-tool-before-title {
+    margin: 0 0 6px 0;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:825 */
+.x-panel-header-light-framed .x-tool-focus {
+    outline: 1px solid #5fa2dd;
+    outline-offset: 1px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:58 */
+.x-ie8 .x-panel-header-light-framed .x-tool-focus {
+    outline: none;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:38 */
+.x-ie8 .x-panel-header-light-framed .x-tool-focus:after {
+    position: absolute;
+    content: ' ';
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 1px solid #5fa2dd;
+    pointer-events: none;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neutral/sass/src/panel/Panel.scss:854 */
+.x-panel-light-framed-resizable .x-panel-handle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:2 */
+.x-panel-light-framed-outer-border-l {
+    border-left-color: #d0d0d0 !important;
+    border-left-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:6 */
+.x-panel-light-framed-outer-border-b {
+    border-bottom-color: #d0d0d0 !important;
+    border-bottom-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:10 */
+.x-panel-light-framed-outer-border-bl {
+    border-bottom-color: #d0d0d0 !important;
+    border-bottom-width: 2px !important;
+    border-left-color: #d0d0d0 !important;
+    border-left-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:16 */
+.x-panel-light-framed-outer-border-r {
+    border-right-color: #d0d0d0 !important;
+    border-right-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:20 */
+.x-panel-light-framed-outer-border-rl {
+    border-right-color: #d0d0d0 !important;
+    border-right-width: 2px !important;
+    border-left-color: #d0d0d0 !important;
+    border-left-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:26 */
+.x-panel-light-framed-outer-border-rb {
+    border-right-color: #d0d0d0 !important;
+    border-right-width: 2px !important;
+    border-bottom-color: #d0d0d0 !important;
+    border-bottom-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:32 */
+.x-panel-light-framed-outer-border-rbl {
+    border-right-color: #d0d0d0 !important;
+    border-right-width: 2px !important;
+    border-bottom-color: #d0d0d0 !important;
+    border-bottom-width: 2px !important;
+    border-left-color: #d0d0d0 !important;
+    border-left-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:40 */
+.x-panel-light-framed-outer-border-t {
+    border-top-color: #d0d0d0 !important;
+    border-top-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:44 */
+.x-panel-light-framed-outer-border-tl {
+    border-top-color: #d0d0d0 !important;
+    border-top-width: 2px !important;
+    border-left-color: #d0d0d0 !important;
+    border-left-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:50 */
+.x-panel-light-framed-outer-border-tb {
+    border-top-color: #d0d0d0 !important;
+    border-top-width: 2px !important;
+    border-bottom-color: #d0d0d0 !important;
+    border-bottom-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:56 */
+.x-panel-light-framed-outer-border-tbl {
+    border-top-color: #d0d0d0 !important;
+    border-top-width: 2px !important;
+    border-bottom-color: #d0d0d0 !important;
+    border-bottom-width: 2px !important;
+    border-left-color: #d0d0d0 !important;
+    border-left-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:64 */
+.x-panel-light-framed-outer-border-tr {
+    border-top-color: #d0d0d0 !important;
+    border-top-width: 2px !important;
+    border-right-color: #d0d0d0 !important;
+    border-right-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:70 */
+.x-panel-light-framed-outer-border-trl {
+    border-top-color: #d0d0d0 !important;
+    border-top-width: 2px !important;
+    border-right-color: #d0d0d0 !important;
+    border-right-width: 2px !important;
+    border-left-color: #d0d0d0 !important;
+    border-left-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:78 */
+.x-panel-light-framed-outer-border-trb {
+    border-top-color: #d0d0d0 !important;
+    border-top-width: 2px !important;
+    border-right-color: #d0d0d0 !important;
+    border-right-width: 2px !important;
+    border-bottom-color: #d0d0d0 !important;
+    border-bottom-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-base/sass/etc/mixins/border-management.scss:86 */
+.x-panel-light-framed-outer-border-trbl {
+    border-color: #d0d0d0 !important;
+    border-width: 2px !important;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:1 */
+.x-resizable-handle {
+    background-color: #d0d0d0;
+    background-repeat: no-repeat;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:7 */
+.x-resizable-handle-east-over,
+.x-resizable-handle-west-over {
+    background-position: center;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:12 */
+.x-resizable-handle-south-over,
+.x-resizable-handle-north-over {
+    background-position: center;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:17 */
+.x-resizable-handle-southeast-over {
+    background-position: -2px -2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:21 */
+.x-resizable-handle-northwest-over {
+    background-position: 2px 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:25 */
+.x-resizable-handle-northeast-over {
+    background-position: -2px 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:29 */
+.x-resizable-handle-southwest-over {
+    background-position: 2px -2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:34 */
+.x-resizable-pinned .x-resizable-handle-east,
+.x-resizable-pinned .x-resizable-handle-west {
+    background-position: center;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:39 */
+.x-resizable-pinned .x-resizable-handle-south,
+.x-resizable-pinned .x-resizable-handle-north {
+    background-position: center;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:44 */
+.x-resizable-pinned .x-resizable-handle-southeast {
+    background-position: -2px -2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:48 */
+.x-resizable-pinned .x-resizable-handle-northwest {
+    background-position: 2px 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:52 */
+.x-resizable-pinned .x-resizable-handle-northeast {
+    background-position: -2px 2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:56 */
+.x-resizable-pinned .x-resizable-handle-southwest {
+    background-position: 2px -2px;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:3 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:10 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:17 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:24 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:31 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Semibold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:38 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiboldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:45 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:52 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:59 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/Component.scss:66 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/menu/Menu.scss:1 */
+.x-menu-item-active .x-menu-item-text {
+    font-weight: 400;
+}
+/* C:/Code/HelloWorlds-ExtJs/ext/classic/theme-triton/sass/src/tab/Tab.scss:1 */
+.x-tab-close-btn:before {
+    display: block;
+    width: 16px;
+    line-height: 16px;
+    text-align: center;
+}
